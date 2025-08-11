@@ -65,17 +65,17 @@ Follow these steps to install `ghcup` and set up GHC 9.2.7 and Cabal 3.6.2.0 on 
 2. Use `display_morph` to see imperative representation of algorithms
 
 * simple algorithm
-```
+  ```
   display_morph (Base 4 0 4 5) (Factor 2)
-```
+  ```
 
 * Spiral 4 step decomposition
-```
-display_morph (Base 16 0 16 257) (spiral_4_step 16 8)
-```
+  ```
+  display_morph (Base 16 0 16 257) (spiral_4_step 16 8)
+  ```
 
 * Coopersmith's algorithm
-```
-display_morph (Base 16 0 16 257) (qqft 4)
-```
+  ```
+  display_morph (Base 16 0 16 257) (qqft 4)
+  ```
 
